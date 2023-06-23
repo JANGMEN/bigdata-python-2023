@@ -9,7 +9,6 @@ print(10 > 3)
 print(int(True)) # True == 1
 print(int(False)) # False == 0
 
-# 프로그래머의 길, 멘토에게 묻다
 
 print(bool(0))
 print(bool(1))

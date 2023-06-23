@@ -99,7 +99,7 @@ def adds(a, b):
 print(adds(6, 7))
 
 print(abs(-3)) # 절대값
-print(all([1, 2, 4, 5]))
+print(all([1, 2, 4, 5])) # 반복문 없이 참, 거짓 확인하기
 
 for i  in [1, 3, 5, 7, 0]:
     print(i)
