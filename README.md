@@ -52,3 +52,7 @@
 - 파이썬 데이터분석
     - selenium
     - beautifulSoup
+    - 예제
+        - 회사 웹사이트 이미지 다운로드
+        - 멜론 인기차트 TOP 100 CSV 저장
+        - 벅스 인기차트 TOP 100 CSV 저장
