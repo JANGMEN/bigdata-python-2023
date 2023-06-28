@@ -8,7 +8,7 @@ dummy = Faker('ko-KR')
 # print(dummy.address())
 # print(dummy.company())
 
-dummy_data = [[dummy.name(), dummy.postcode(), dummy.job(), dummy.address(), dummy.phone_number(), dummy.email()] for i in range(1000)]
+dummy_data = [[dummy.name(), dummy.postcode(), dummy.job(), dummy.address(), dummy.phone_number(), dummy.email()] for i in range(100)]
 
 df = pd.DataFrame(data=dummy_data, columns=['이름', '우편번호', '직업', '주소', '전화번호', '이메일'])
 
