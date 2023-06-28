@@ -5,7 +5,7 @@ list_3rd = []
 for n in range(1, 1000+1):
     if n % 3 == 0: # 3의 배수이면
         list_3rd.append(n)
-# print(list_3rd)
+print(list_3rd)
 
 # 2. 1 ~ 1000까지 사이의 3의 배수값 리스트
 list_3rd_2 = [n for n in range(3, 1000+1, 3)]
@@ -17,7 +17,7 @@ for n in range(3, 1000+1, 3):
 # print(list_3rd)
 
 ##
-# print([2 * x for x in range(1, 10+1)])
+print([2 * x for x in range(1, 10+1)])
 ## 3. 1 ~ 1000까지 사이의 3의 배수값 리스트
 # print([3 * x for x in range(1, 333+1)])
 
